@@ -67,7 +67,15 @@
       "node": true
     },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 80,
+          "singleQuote": true,
+          "semi": true,
+          "trailingComma": "es5"
+        }
+      ]
     },
     "plugins": [
       "prettier"
