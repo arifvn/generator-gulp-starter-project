@@ -1,6 +1,6 @@
 # Generator Gulp Starter Project
 
-A Yeoman generator that creates gulp starter project from this [repo](https://github.com/empun/gulp-starter-project.git)
+A Yeoman generator that creates gulp starter project from [gulp-starter-project](https://github.com/empun/gulp-starter-project.git)
 
 ## Installation
 
@@ -11,14 +11,20 @@ npm install -g yo
 git clone https://github.com/empun/generator-gulp-starter-project.git
 ```
 
-2. Link this repo
+2. Install dependencies
 
 ```bash
 cd generator-gulp-starter-project
+npm install
+```
+
+3. Link this repo
+
+```bash
 npm link
 ```
 
-3. Then generate your new project:
+4. Then generate your new project:
 
 ```bash
 yo gulp-starter-project
